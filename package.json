@@ -1,0 +1,48 @@
+{
+  "name": "watney-plugin-spotify",
+  "version": "0.0.1",
+  "description": "A Spotify plugin for the Watney home automation thing.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore **/*.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doingweb/watney-plugin-spotify.git"
+  },
+  "keywords": [
+    "watney",
+    "diy",
+    "home-automation",
+    "spotify"
+  ],
+  "author": "Chris Antes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doingweb/watney-plugin-spotify/issues"
+  },
+  "homepage": "https://github.com/doingweb/watney-plugin-spotify#readme",
+  "dependencies": {
+    "inquirer": "^6.1.0",
+    "node-schedule": "^1.3.0",
+    "spotify-web-api-node": "^4.0.0",
+    "watney-app": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^23.5.0",
+    "prettier": "^1.11.1"
+  },
+  "peerDependencies": {
+    "watney-app": "^1.1.0"
+  }
+}
